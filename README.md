@@ -1,3 +1,3 @@
-#Ta Te Ti
+# Ta Te Ti
 
-Deploy: https://ta-te-ti-github-io.vercel.app/
+Demo: https://ta-te-ti-github-io.vercel.app/
