@@ -13,6 +13,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
+    
 }
 
 body {
@@ -83,7 +84,33 @@ body {
 
 .square.is-selected {
     color: #fff;
-    background: rgb(0, 81, 255);
+    animation: arcoiris 3s linear infinite;
+}
+
+@keyframes arcoiris {
+    0% {
+        border-color: red;
+    }
+
+    20% {
+        
+    }
+
+    40% {
+        border-color: yellow;
+    }
+
+    60% {
+        border-color: green;
+    }
+
+    80% {
+        border-color: blue;
+    }
+
+    100% {
+        border-color: red;
+    }
 }
 
 .winner {
@@ -128,6 +155,8 @@ body {
     place-items: center;
     cursor: pointer;
     font-size: 48px;
+    justify-items: center;
+    align-items: center;
 }
 
 .points {
@@ -141,6 +170,7 @@ body {
     place-items: center;
     font-size: 20px;
 }
+
 
 .start{
     display: flex;

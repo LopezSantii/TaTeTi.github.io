@@ -138,8 +138,7 @@ function App() {
 
         {/* modal que aparece al finalizar el juego */}
         {winner === null ? "" : <Modal winner={winner} reset={reset} />}
-        <Points players={players} points={count}/>
-        
+          <Points players={players} turn={turn} points={count}/> 
       </main>  
       )
     )
