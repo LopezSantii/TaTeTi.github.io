@@ -1,10 +1,25 @@
 # Ta Te Ti
-Una reinvención moderna y cautivadora del clásico juego de tres en raya el cual mas de uno habrá jugado con su compañero de clases.
 
 ![781_1x_shots_so](https://github.com/user-attachments/assets/6b6d2262-cf4e-4106-84f1-43ccbe50ba57)
+[Demo en vivo](https://ta-te-ti-github-io.vercel.app/)
 
+### Descripción del Proyecto
+Esta aplicación es una versión digital del popular juego de "Ta Te Ti" (o "Tres en Raya"), desarrollada con React. Los jugadores pueden ingresar sus nombres, y el juego mantiene el puntaje entre ambos durante la sesión.
+
+
+### Características
+* Modo de juego: Dos jugadores.
+* Mantenimiento de puntajes: El juego guarda los puntajes de cada jugador hasta que se recarga la página.
+* Animaciones de confeti: Cuando hay un ganador, una animación de confeti celebra la victoria.
+* Interfaz Moderna: Diseño limpio y moderno, con colores llamativos para una experiencia visual atractiva.
+
+### Tecnologías Utilizadas
+* React.js
+* JavaScript
+* Html
+* CSS
+* 
 ## Instalación
-
 Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
 
 ```bash
@@ -14,4 +29,13 @@ npm install
 npm start
 ```
 
-Demo: https://ta-te-ti-github-io.vercel.app/
+### Lógica del Juego
+* Estado Inicial: Se define el estado inicial del tablero (board), el turno actual (turn), y el ganador (winner). También se guardan los nombres de los jugadores y los puntajes.
+* Actualización del Tablero: La función updateBoard se encarga de actualizar el tablero y verificar si hay un ganador después de cada movimiento. Si hay un ganador, se dispara una animación de confeti y se actualiza el puntaje del jugador correspondiente.
+* Reseteo del Juego: La función reset restablece el tablero y el turno, permitiendo que los jugadores comiencen de nuevo.
+* Inicio del Juego: El juego comienza cuando ambos jugadores han ingresado sus nombres y presionan el botón "Comenzar a jugar".
+
+### Uso
+Una vez que hayas iniciado la aplicación, los jugadores pueden ingresar sus nombres y comenzar a jugar haciendo clic en los cuadros del tablero.
+
+
