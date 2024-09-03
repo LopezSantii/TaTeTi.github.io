@@ -8,7 +8,7 @@ Una reinvención moderna y cautivadora del clásico juego de tres en raya el cua
 Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
 
 ```bash
-git clone https://github.com/LopezSantii/ta-te-ti.git
+git clone https://github.com/LopezSantii/TaTeTi.github.io.git
 cd ta-te-ti
 npm install
 npm start
