@@ -18,7 +18,7 @@ Esta aplicación es una versión digital del popular juego de "Ta Te Ti" (o "Tre
 * JavaScript
 * Html
 * CSS
-* 
+
 ## Instalación
 Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
 
@@ -38,4 +38,17 @@ npm start
 ### Uso
 Una vez que hayas iniciado la aplicación, los jugadores pueden ingresar sus nombres y comenzar a jugar haciendo clic en los cuadros del tablero.
 
+### Roadmap
 
+Este proyecto está en constante evolución. Aquí hay una lista de características y mejoras que planeo implementar en el futuro:
+
+- [ ] **Funcionalidad Online**: Permitir a los jugadores competir en línea, conectándose desde diferentes dispositivos.
+- [ ] **Mejoras en la UI**: Refinar la interfaz de usuario para mejorar la experiencia de juego, especialmente en dispositivos móviles.
+- [ ] **Temas Personalizados**: Permitir a los usuarios cambiar los colores y estilos del juego para personalizar su experiencia.
+- [ ] **Soporte Multilenguaje**: Añadir soporte para varios idiomas para que el juego sea accesible a una audiencia más amplia.
+
+### Curso de React
+Este proyecto fue desarrollado como parte del [curso de React de Midudev](https://www.youtube.com/watch?v=qkzcjwnueLA&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29&index=2), una excelente guía para aprender React desde lo básico hasta conceptos avanzados. ¡Altamente recomendado para quienes quieren mejorar sus habilidades en desarrollo frontend!
+
+### Gracias por llegar hasta aqui espero que les haya gustado ❤
+[LinkedIn](https://www.linkedin.com/in/santiago-lopez-3962a4234/)
